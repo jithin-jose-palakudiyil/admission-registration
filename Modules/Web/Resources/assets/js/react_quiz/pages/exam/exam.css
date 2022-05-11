@@ -1,0 +1,143 @@
+/*Preview Modal  */
+
+.modal-question {
+    margin-left: 12px;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 500;
+    color: #38404a;
+}
+
+.modal-answer {
+    margin-bottom: 3px;
+    font-size: 15px
+}
+
+.modal-answer-attended{
+    margin-bottom: 3px;
+    font-size: 15px;
+    color: rgb(43, 184, 43)
+}
+
+.answer-area-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.edit-answer-text{
+    margin-left: 12px;
+     margin-top: 10px;
+      color: #5089de;
+      cursor: pointer
+}
+
+.your-answer{
+    margin-left: 12px; 
+    color: rgb(46 165 89)
+}
+
+
+/* End Preview modal */
+
+
+/* checkbox */
+.custom-checkbox .custom-control-label::before {
+    border-radius: .25rem;
+    top: 8px;
+    height: 20px;
+    border-color: #cd002b;
+    width: 20px;
+}
+
+
+/* end checkbox */
+
+
+.question-box{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background: #150a3a;
+    padding: 6px 22px;
+    border-radius: 4px;
+}
+
+.answer-title-box{
+    overflow: hidden;
+    color: #ffffff ;
+    letter-spacing: 1px;
+    font-weight: 700;
+    /* position: relative; */
+}
+
+.underline-answer-title{
+    position: absolute;
+    height: 10px;
+    border-bottom: 6px solid #d3002a;
+    width: 142px;
+    left: 13px;
+    bottom: 14px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+/* .answer-title-box::after{
+    content: "";
+    position: absolute;
+    height: 10px;
+    border-bottom: 6px solid #d3002a;
+    width: 142px;
+    left: 23px;
+    bottom: 160px;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 991px){
+    .answer-title-box::after{
+        bottom: 241px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .answer-title-box::after{
+        bottom: 233px;
+    }
+} */
+
+
+
+
+.checkbox-info input[type=checkbox]:checked+label::after {
+    border-color: #fff;
+    height: 42px;
+    width: 29px;
+    position: absolute;
+    top: -2px;
+    left: -28px;
+}
+
+
+.custom-control-label::after {
+    position: absolute;
+    top: 10px;
+    left: -22px;
+    display: block;
+    /* width: 1rem; */
+    /* right: 23px; */
+    /* height: 1rem; */
+    content: "";
+    background: no-repeat 50%/50% 50%;
+}
+
+
+.html5-video-player:not(.ytp-big-mode) .ytp-chrome-top .ytp-watch-later-button {
+
+    display: none!important;
+}

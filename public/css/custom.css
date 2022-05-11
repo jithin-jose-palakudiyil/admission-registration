@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 31, 2021, 12:07:54 PM
+    Author     : Jithin
+*/
+
+
+
+body.authentication-bg {
+    background-color: #001021 !important;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.auth-title {
+
+    text-transform: none !important;
+    font-weight: 700;
+   
+}

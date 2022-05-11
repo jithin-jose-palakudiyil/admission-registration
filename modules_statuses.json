@@ -1,0 +1,6 @@
+{
+    "Web": true,
+    "Admin": true,
+    "Colleges": true,
+    "Applications": true
+}

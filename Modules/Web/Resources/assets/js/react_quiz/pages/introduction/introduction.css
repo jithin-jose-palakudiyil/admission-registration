@@ -1,0 +1,231 @@
+
+
+
+.quiz-intro-heading{
+    text-align: left ;
+    font-size: 18px ;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+
+/* timer */
+
+.Timer{
+    /* padding: 12px 0px 12px 0px; */
+    /* margin: 120px 0px 24px 0px; */
+     font-size: 16px;
+     display: inline-block;
+     /* background: #e8e8e8; */
+     margin-top: 11px;
+     text-align: right;
+     width: 259px;
+     border-radius: 4px;
+     position: relative;
+ }
+ 
+ 
+ .Timer .TimeLeftTag{
+   position: absolute;
+   font-size: 44px;
+   right: 122px;
+   top: -1px;
+   color: #f0643b;
+ }
+ 
+ 
+ .Timer p{
+   display: inline-block;
+   font-weight: 600;
+   letter-spacing: 3px;
+   background: red;
+   color: white;
+   width: 50px!important;
+   text-align: center;
+   border-radius: 3px;
+   font-size: 27px;
+ }
+
+
+ .ytp-pause-overlay, .ytp-scroll-min, .ytp-scroll-max{
+    display: none!important;
+ }
+
+ .ytp-expand-pause-overlay .ytp-pause-overlay {
+   display: none!important;
+}
+
+ /* timer ends */
+
+
+ /* player */
+
+
+ .player-container-hidden {
+    display: none
+ }
+
+ .player-container{
+    display: block
+ }
+
+ .video-container{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex: 1;
+     margin-top: 0px
+ }
+
+ /* player ends */
+
+
+ /* Next Button */
+
+
+ .NextButton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px
+ }
+
+ .badge-custom{
+   padding: 10px 15px;
+   cursor: pointer;
+ }
+
+
+ .custom-buttom-primary{
+    min-width: 100px; margin-bottom: 10px
+ }
+
+ .question-box{
+   color: white;
+   font-weight: 600;
+   font-size: 20px;
+   background: #150a3a;
+   padding: 6px 22px;
+   border-radius: 4px;
+}
+
+ .goToQuizButton-secondary{
+   display: flex;
+   margin: 15px 13px 25px 13px!important;
+   width: 282px;
+   height: 59px;
+   text-align: center;
+   margin-bottom: 25px;
+   font-size: 19px;
+   align-items: center;
+   justify-content: center;
+   font-weight: 700;
+   color: white;
+}
+
+
+.goToQuizButton-secondary:hover{
+   color: white;
+}
+
+
+ .goToQuizButton{
+   display: flex;
+   margin: 15px 13px 25px 13px!important;
+   width: 282px;
+   height: 59px;
+   border:none;
+   text-align: center;
+   margin-bottom: 25px;
+   background: #d6002a;
+   font-size: 19px;
+   align-items: center;
+   justify-content: center;
+   font-weight: 700;
+   color: white;
+}
+
+
+.goToQuizButton:hover{
+   color: white;
+}
+
+
+.glow {
+   /* font-size: 80px; */
+   color: #fff;
+   /* text-align: center; */
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+   background: #d6002a;
+}
+
+
+@keyframes glow {
+   from {
+   background: #d6002a;
+   
+   }
+   to {
+       background: #000b3c;
+   }
+}
+
+
+
+  /* Next Button Ends */
+
+
+  /* VideoErrorLoading component */
+
+
+  .loading-error-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+
+    /* VideoErrorLoading component Ends */
+
+
+
+    .malayalam-font-notification-title{
+      font-family:'Noto Sans', sans-serif;
+      font-size:24px;
+      color:red
+  }
+
+  .malayalam-font-notification-content{
+      font-size: 23px; 
+      font-family:'Noto Sans', sans-serif;
+      color: #4e4e4e;
+  }
+
+  .malayalam-font-notification-content span{
+      font-size: 19px;
+      font-family:'Noto Sans', sans-serif;
+
+  }
+
+  @media only screen and (max-width: 340px){
+      .malayalam-font-notification-title{
+      font-size:25px
+      }
+
+      .malayalam-font-notification-content{
+          font-size: 18px; 
+      }
+
+      .malayalam-font-notification-content span{
+          font-size: 14px;
+
+      }
+  }
+
+
+  .html5-video-player:not(.ytp-big-mode) .ytp-chrome-top .ytp-watch-later-button {
+
+   display: none!important;
+}
+
+
